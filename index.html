@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProdMast - The Future of Manufacturing</title>
+    <!-- Tailwind CSS link-->
+    <link href="./src/output.css" rel="stylesheet">
+    <!-- Font Awesome icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#f8f9fa] font-sans text-[#1a2b3c] overflow-x-hidden">
+
+    <!--  Navbar  -->
+    <nav class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+        <div class="flex items-center gap-2 text-xl font-bold">
+            <div class="w-8 h-8 bg-teal-800 rounded-full flex items-center justify-center text-white text-sm">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+            ProdMast
+        </div>
+        <div class="hidden md:flex gap-8 text-sm font-medium text-gray-600">
+            <a href="#" class="text-black font-semibold">Home</a>
+            <a href="#" class="hover:text-black">About</a>
+            <a href="#" class="hover:text-black">Services</a>
+            <a href="#" class="hover:text-black">Contact</a>
+        </div>
+        <a href="#" class="bg-[#0f3d3e] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-black transition">Sign Up</a>
+    </nav>
+
+    <!--  (Hero Section) -->
+    <main class="relative max-w-7xl mx-auto px-4 pt-16 pb-24 text-center">
+        
+        <!-- (Decorative Icons) -->
+        <div class="absolute top-20 left-10 md:left-32 hidden md:block">
+            <div class="w-12 h-12 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 bg-white">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="absolute top-32 left-20 md:left-40 hidden md:block text-green-500 text-2xl">
+            <i class="fa-solid fa-file-lines"></i>
+        </div>
+        <div class="absolute top-16 right-10 md:right-32 hidden md:block">
+            <div class="w-10 h-10 bg-[#0f3d3e] text-white rounded-full flex items-center justify-center text-sm">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </div>
+        <div class="absolute top-32 right-20 md:right-40 hidden md:block text-green-500 text-2xl">
+            <i class="fa-solid fa-chart-simple"></i>
+        </div>
+
+        
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4">
+            The Future of Manufacturing <br> with Latest Technology
+        </h1>
+        <p class="text-gray-500 text-sm md:text-base mb-8 max-w-2xl mx-auto">
+            Expert tech to elevate your manufacturing. Let's take your business further.
+        </p>
+
+        <div class="flex justify-center gap-4 mb-6">
+            <button class="bg-[#0f3d3e] text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-black transition">Get Started</button>
+            <button class="bg-white text-black border border-gray-200 px-8 py-3 rounded-full text-sm font-medium hover:bg-gray-50 transition shadow-sm">Try Demo</button>
+        </div>
+
+        <!-- (Rating) -->
+        <div class="flex justify-center items-center gap-2 text-sm text-gray-500 mb-12">
+            <div class="text-yellow-400 text-lg">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <span class="font-bold text-black">5.0</span>
+            <span>from 80+ reviews</span>
+        </div>
+
+        <!-- (Cards Section) -->
+        <div class="flex flex-col md:flex-row justify-center items-center gap-6 relative">
+            
+            <!-- Card 1: Image -->
+            <div class="w-64 h-80 rounded-3xl overflow-hidden shadow-lg relative">
+                <!-- படத்திற்கான லிங்க் (Unsplash) -->
+                <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=1000&auto=format&fit=crop" alt="Manufacturing" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Card 2: Clients -->
+            <div class="w-64 h-80 bg-[#0f3d3e] rounded-3xl p-6 flex flex-col justify-center text-white shadow-lg relative">
+                <h3 class="text-4xl font-bold mb-2">100+</h3>
+                <p class="text-sm text-gray-300 leading-relaxed">Our Esteemed<br>Clients and<br>Partners</p>
+            </div>
+
+            <!-- Card 3: Projects (White Card) -->
+            <div class="w-64 h-80 bg-white rounded-3xl p-6 flex flex-col justify-between shadow-lg relative">
+                <div class="flex justify-between items-start">
+                    <div class="w-8 h-8 bg-green-100 text-green-600 rounded-md flex items-center justify-center">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-500 mb-1">Total Projects <span class="bg-black text-white text-[10px] px-2 py-0.5 rounded-full ml-1">6%</span></p>
+                    <h3 class="text-3xl font-bold mb-1">1951+</h3>
+                    <p class="text-xs text-gray-400">Increase of <span class="text-green-500 font-bold">126</span> this month</p>
+                </div>
+            </div>
+
+            <!-- Card 4: Years of Service -->
+            <div class="w-64 h-80 bg-[#e6f4d3] rounded-3xl p-6 flex flex-col justify-center shadow-lg relative">
+                <h3 class="text-4xl font-bold mb-2">6+</h3>
+                <p class="text-sm text-gray-700 leading-relaxed">Years of<br>Dedicated<br>Service</p>
+            </div>
+
+            <!-- Card 5: Efficiency -->
+            <div class="w-64 h-80 bg-[#0f3d3e] rounded-3xl p-6 flex flex-col justify-end text-white shadow-lg relative overflow-hidden">
+                <!-- (Decorative Circles that square) -->
+                <div class="absolute -top-10 -right-10 w-32 h-32 border border-white/10 rounded-full"></div>
+                <div class="absolute -top-5 -right-5 w-20 h-20 border border-white/10 rounded-full"></div>
+                
+                <div class="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-gauge-high text-sm"></i>
+                </div>
+                <p class="text-sm leading-relaxed">Achieve Optimal<br>Efficiency and Boost<br>Productivit</p>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
